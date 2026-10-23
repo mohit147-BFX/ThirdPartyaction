@@ -9,7 +9,7 @@ jobs :
       - name: Run a one-line script
         run: echo checks the code :::!
       - name: setup node
-      - uses: actions/setup-node@v3
+        uses: actions/setup-node@v3
         with:
           node-version: 24.x
       - name: Install dependencies
