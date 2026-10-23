@@ -1,0 +1,13 @@
+Name: 04 - Using Actions
+on:
+  push
+Job:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a one-line script
+        run: echo checks the code :::!
+      - name: Printing Folder
+        run: tree
+        run: echo hello tree command
