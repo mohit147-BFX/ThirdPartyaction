@@ -1,4 +1,4 @@
-Name: 04 - Using Actions
+Name: 04
 on:
   push
 Job:
