@@ -1,7 +1,7 @@
-Name: 04
+name: 04
 on:
   push
-Job:
+jobs :
   build:
     runs-on: ubuntu-latest
     steps:
@@ -9,5 +9,6 @@ Job:
       - name: Run a one-line script
         run: echo checks the code :::!
       - name: Printing Folder
-        run: tree
-        run: echo hello tree command
+        run: |
+           tree
+           echo hello tree command
